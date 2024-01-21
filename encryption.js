@@ -8,7 +8,6 @@ class Encryption {
   }
 
   static decrypt(encryptedData, key, iv) {
-    console.log("here????");
     const decryptedData = CryptoJS.AES.decrypt(encryptedData, key, { iv });
     return decryptedData.toString(CryptoJS.enc.Utf8);
   }

@@ -22,6 +22,7 @@
   "homepage": "https://github.com/abhishekvatsAV/Encrypted-Binary-Communications#readme",
   "dependencies": {
     "axios": "^1.6.5",
+    "cbor-js": "^0.1.0",
     "crypto-js": "^4.2.0"
   }
 }
